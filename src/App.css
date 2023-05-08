@@ -1,7 +1,12 @@
 h1 {
   text-align: center;
-  color: aqua;
+  color:yellow;
 }
+
+h1:hover {
+  color: blue;
+}
+
 
 .square {
   height: 200px;
@@ -11,6 +16,9 @@ h1 {
   font-size: 180px;
 }
 
+#grid:hover {
+  color: blue;
+}
 #grid {
   display: flex;
   flex-wrap: wrap;

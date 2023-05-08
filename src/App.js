@@ -20,12 +20,12 @@ const App = () => {
 
   return (
     <>
-      <h1>Treasure Hunt</h1>
-      <ul>
+      <h1>|-- TREASURE HUNT --|</h1>
+      {/* <ul>
         <li> Click the Boxes and try to find the treasure </li>
-      </ul>
+      </ul> */}
       <Square board={board} />
-      <Thunt board={board}/>
+      {/* <Thunt board={board}/> */}
       <footer>
         <br></br>
         Made by: Henrique Lambertucci
