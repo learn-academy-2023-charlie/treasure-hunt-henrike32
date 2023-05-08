@@ -1,9 +1,30 @@
 h1 {
   text-align: center;
+  color: aqua;
 }
 
 .square {
   height: 200px;
   width: 200px;
-  border: 1px solid black;
+  border: 2px solid red;
+  text-align: center;
+  font-size: 180px;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 620px;
+  margin: 0 auto;
+  color: yellow;
+}
+
+footer {
+  text-align: center;
+  color: yellow;
+}
+
+body {
+  background-image: url(https://c1.wallpaperflare.com/preview/653/576/854/question-mark-pile-question-mark.jpg);
+  background-size: cover;
 }
